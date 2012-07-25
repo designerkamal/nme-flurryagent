@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ 
+	<ndll name="flurryagent" if="ios"/>
+	<java path="project/android" />
+ 
+	<!-- Include native frameworks -->
+  	<dependency name="CFNetwork.framework" if="ios" />
+
+  	<!-- Template libs -->
+  	<template path="template/iphone/FlurryAnalytics" rename="FlurryAnalytics" if="ios"/>
+  	<template path="template/android/libs" rename="libs" if="android"/>
+
+  	<dependency name="FlurryAnalytics" if="ios" />
+
+</project>

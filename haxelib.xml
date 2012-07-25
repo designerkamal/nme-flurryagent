@@ -1,0 +1,7 @@
+<project name="flurryagent" url="https://github.com/designerkamal/nme-flurryagent" license="Public">
+    <user name="designerkamal"/>
+ 	<description>Flurry Agent for Android/iOS</description>
+    <version name="1.0">Initial Release</version>
+    <depends name="hxcpp"/>
+    <depends name="nme"/>
+</project>
