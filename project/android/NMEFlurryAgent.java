@@ -6,15 +6,15 @@ public class NMEFlurryAgent {
 	
 	public void startSession(String appId)
 	{
-		FlurryAgent.onStartSession(GameActivity.getInstance(), appId)
+		FlurryAgent.onStartSession(GameActivity.getInstance(), appId);
 	}
 	public void logEvent(String eventName)
 	{
-		FlurryAgent.logEvent(eventName)
+		FlurryAgent.logEvent(eventName);
 	}
 	public void logPageView()
 	{
-		FlurryAgent.onPageView()
+		FlurryAgent.onPageView();
 	}
 	public void setDebugEnabled(boolean debug)
 	{
